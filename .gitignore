@@ -31,3 +31,8 @@ outputs/*
 # OS
 .DS_Store
 Thumbs.db
+# Local backup files
+*_LOCAL_BACKUP.*
+
+# Pytest
+.pytest_cache/
