@@ -1,0 +1,5 @@
+checkpoint,MAE_mean,PSNR_mean_dB,SSIM_mean,images_evaluated,metrics_file
+baseline_epoch1,0.10197276539938867,16.05449620223445,0.4775003003397827,14882,/content/drive/MyDrive/MP1_Thermal_RGB/evaluation/validation_baseline_epoch1_metrics.csv
+baseline_epoch2,0.08857274939943274,16.87075640610948,0.5082794543295125,14882,/content/drive/MyDrive/MP1_Thermal_RGB/evaluation/validation_baseline_epoch2_metrics.csv
+baseline_latest,0.08623792893910237,17.048171468192244,0.5060946627346927,14882,/content/drive/MyDrive/MP1_Thermal_RGB/evaluation/validation_baseline_latest_metrics.csv
+resume_latest,0.08560647324334388,16.98640727152567,0.498972397867854,14882,/content/drive/MyDrive/MP1_Thermal_RGB/evaluation/validation_resume_latest_metrics.csv

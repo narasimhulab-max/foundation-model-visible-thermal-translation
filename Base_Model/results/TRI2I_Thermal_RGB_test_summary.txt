@@ -1,0 +1,6 @@
+Test images: 14884
+Mean MAE [0,1]: 0.085790
+Mean PSNR (dB): 16.9817
+Mean SSIM: 0.498237
+Elapsed minutes: 5.95
+Per-image metrics CSV: /content/drive/MyDrive/MP1_Thermal_RGB/evaluation/TRI2I_Thermal_RGB_test_metrics.csv

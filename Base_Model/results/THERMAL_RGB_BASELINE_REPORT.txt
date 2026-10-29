@@ -1,0 +1,59 @@
+THERMAL TO RGB — BASELINE EXPERIMENT REPORT
+===========================================
+
+Dataset:
+- TRI2I paired thermal and RGB dataset
+- Original paired images: 148,829
+- Train split: 119,063
+- Validation split: 14,882
+- Test split: 14,884
+- Split seed: 42
+- Input: thermal image
+- Target: paired RGB image
+
+Model:
+- Pix2Pix conditional GAN
+- Generator: U-Net 256
+- Discriminator: PatchGAN
+- L1 reconstruction loss plus adversarial loss
+- Input and output resolution: 256 x 256
+
+TEST SET METRICS:
+- Mean MAE: 0.085790
+- Mean PSNR: 16.9817 dB
+- Mean SSIM: 0.498237
+- Number of test images evaluated: 14,884
+
+VISUAL REVIEW:
+- The generator produces recognizable outdoor scenes and plausible colors.
+- Road, trees, sky, and snow are recognizable in the reviewed examples.
+- Blur, streaking, and texture artifacts are visible.
+- Some scene details and colors differ from ground-truth RGB.
+- Generated RGB is an estimate, not guaranteed recovery of true colors.
+
+CHECKPOINT:
+- Resume experiment:
+  checkpoints/TRI2I_Thermal_RGB_resume_v1/latest_net_G.pth
+- Discriminator:
+  checkpoints/TRI2I_Thermal_RGB_resume_v1/latest_net_D.pth
+
+TRAINING STATUS:
+- The recorded resume log reached iteration 74,000.
+- The log does not establish that epoch 3 completed.
+- The saved checkpoint does not include optimizer state, so exact
+  restoration of Adam momentum is not possible from this checkpoint alone.
+- Do not claim the planned training schedule completed without further
+  verification.
+
+EVALUATION FILES:
+- TRI2I_Thermal_RGB_test_metrics.csv
+- TRI2I_Thermal_RGB_test_summary.txt
+
+VISUAL PREDICTIONS:
+- evaluation/visual_predictions/
+
+NEXT ACTION:
+- Preserve this baseline.
+- Decide on the next controlled experiment only after reviewing
+  the training history and baseline outputs.
+- Evaluate any improved model on the same held-out test split.
