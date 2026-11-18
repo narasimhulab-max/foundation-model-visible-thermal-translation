@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🌡️ Foundation Model–Guided Cross-Spectral Translation
+#  Foundation Model–Guided Cross-Spectral Translation
 
 ### Physics-informed multimodal diffusion for visible–thermal image translation and scene understanding
 
@@ -44,20 +44,20 @@ The work combines:
 
 ---
 
-## ✨ Key capabilities
+##  Key capabilities
 
 <table>
 <tr>
 <td width="50%">
 
-### 🌡️ Thermal → RGB
+###  Thermal → RGB
 
 Paired thermal-infrared to visible-spectrum translation using a Pix2Pix conditional GAN baseline.
 
 </td>
 <td width="50%">
 
-### 🧠 Semantic guidance
+###  Semantic guidance
 
 A planned foundation-model-guided stage for richer scene understanding and feature preservation.
 
@@ -73,7 +73,7 @@ Explores constraints linked to imaging physics and cross-domain relationships.
 </td>
 <td width="50%">
 
-### 🖥️ Interactive pipeline
+###  Interactive pipeline
 
 A Streamlit interface for image upload, modality selection, validation, and future model inference.
 
@@ -82,7 +82,7 @@ A Streamlit interface for image upload, modality selection, validation, and futu
 <tr>
 <td width="50%">
 
-### 📊 Quantitative evaluation
+###  Quantitative evaluation
 
 MAE, PSNR, SSIM, and LPIPS-oriented assessment of reconstructed images.
 
@@ -217,7 +217,7 @@ pytest
 
 ---
 
-## 🧪 TRI2I baseline workflow
+##  TRI2I baseline workflow
 
 The primary baseline follows a paired image translation setup:
 
@@ -293,7 +293,7 @@ Generated images should **not** be treated as ground truth or used for safety-cr
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome in the following areas:
 
