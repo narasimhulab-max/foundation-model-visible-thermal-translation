@@ -8,7 +8,7 @@
 
 <a href="https://github.com/narasimhulab-max/foundation-model-visible-thermal-translation"><img src="https://img.shields.io/badge/Project-Cross--Spectral%20AI-0B7285?style=for-the-badge" alt="Project" /></a>
 <a href="https://github.com/narasimhulab-max/foundation-model-visible-thermal-translation/stargazers"><img src="https://img.shields.io/github/stars/narasimhulab-max/foundation-model-visible-thermal-translation?style=for-the-badge&color=f59f00" alt="Stars" /></a>
-<a href="https://github.com/narasimhulab-max/foundation-model-visible-thermal-translation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-2f9e44?style=for-the-badge" alt="MIT License" /></a>
+<a href="https://github.com/narasimhulab-max/foundation-model-visible-thermal-translation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-2f9e44?style=for-the-badge" alt="License" /></a>
 <a href="https://github.com/narasimhulab-max/foundation-model-visible-thermal-translation/issues"><img src="https://img.shields.io/github/issues/narasimhulab-max/foundation-model-visible-thermal-translation?style=for-the-badge&color=7950f2" alt="Issues" /></a>
 
 <br />
@@ -27,7 +27,7 @@
 
 ---
 
-## 🔍 What this project is building
+##  What this project is building
 
 A modular research pipeline that translates complementary information across visible, thermal, infrared, and night-vision domains—while preserving useful structural and semantic scene content.
 
