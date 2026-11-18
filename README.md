@@ -66,7 +66,7 @@ A planned foundation-model-guided stage for richer scene understanding and featu
 <tr>
 <td width="50%">
 
-### 📐 Physics-aware learning
+###  Physics-aware learning
 
 Explores constraints linked to imaging physics and cross-domain relationships.
 
@@ -89,7 +89,7 @@ MAE, PSNR, SSIM, and LPIPS-oriented assessment of reconstructed images.
 </td>
 <td width="50%">
 
-### 🧩 Modular design
+###  Modular design
 
 Research experiments, software modules, documentation, and results remain separable and reusable.
 
